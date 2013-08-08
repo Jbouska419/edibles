@@ -1,8 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
+<!DOCTYPE html>
+<html>
+	<head>
 	<title><?php echo $page_title; ?></title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 0.20" />
@@ -57,8 +55,8 @@ $(document).ready(function() {
 
 <body>
 	<div id="shell">
-		<div id="header2">
-			<div id="nav2">
+		<header id="small">
+			<nav id="top">
 					<ul>
 						<li><a href = "index.php">Home</a></li>
 						<li><a href = "occasions.php">Occasions</a></li>
@@ -67,8 +65,8 @@ $(document).ready(function() {
 						<li><a href = "pricing.php">Pricing</a></li>
 						<li><a href = "contact.php">Contact Us</a></li>
 					</ul>
-			</div> <!-- nav2 -->
-		</div> <!-- header2 -->
+			</nav> <!-- nav2 -->
+		</header> <!-- header2 -->
 		<div class="cl">
 		</div> <!--cl-->
 		
