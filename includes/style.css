@@ -13,7 +13,7 @@
 }
     
 body {
-  background: url(../images/background.jpg);
+	background: url(../images/background.jpg);
 	background-repeat: repeat-x repeat-y;
 	font-family: Arial, sans-serif;
 	font-size: 13px;
@@ -101,13 +101,13 @@ h5 {
 	padding: 20px 0px 20px 0px;
 }
 
-#header {
+header#big {
 	height: 250px;
 	width: 1000px;
 	background: url(../images/logo2.jpg);
 }
 
-#header2 {
+header#small {
 	height: 100px;
 	width: 1000px;
 	background: url(../images/small-logo.jpg) no-repeat;
@@ -168,23 +168,23 @@ h5 {
 	padding-bottom: 25px;
 }
 	
-#nav {
+nav#main{
 	float: right;
 	height: 30px;
 	width: 1000px;
 }
 
-#nav ul {
+nav#main ul {
 	list-style-type: none;
 } 
 
-#nav ul li {
+nav#main ul li {
 	display: inline;
 	font-size: 19px;
 	float: left;
 }
 
-#nav ul li a {
+nav#main ul li a {
 	background: url(../images/nav2.jpg) no-repeat 0 0;
 	width: 40px;
 	text-decoration: none;
@@ -194,12 +194,12 @@ h5 {
 	padding: 0 31.05px 0 31.05px;
 }
 
-#nav ul li a:hover {
+nav#main ul li a:hover {
 	background: url(../images/nav-hover.jpg) no-repeat 0 0;
 	color: #FFFFFF;
 }
 
-#nav2 {
+nav#top {
 	float: right;
 	height: 19px;
 	width: 500px;
@@ -207,11 +207,11 @@ h5 {
 	border-right: 1px solid #OOOOOO;
 }
 
-#nav2 ul {
+nav#top ul {
 	list-style-type: none;
 }
 
-#nav2 ul li {
+nav#top ul li {
 	display: inline;
 	font-size: 15px;
 	color: #000000;
@@ -219,13 +219,13 @@ h5 {
 	padding: 45px 25px 0 0;
 }
 
-#nav2 ul li a {
+nav#top ul li a {
 	text-decoration: none;
 	text-align: center;
 	color: #000000;
 }
 
-#nav2 ul li a:hover {
+nav#top ul li a:hover {
 	font-weight: bold;
 	text-decoration: underline;
 	color: #000000;
@@ -251,7 +251,7 @@ h5 {
 	font-weight: bold;
 }
 
-.left-content {
+section#left {
 	width: 670px;
 	padding: 20px 20px 20px 0px;
 	float: left;
@@ -266,7 +266,7 @@ h5 {
 	border: 2px solid black;
 }
 
-.right-content {
+section#right {
 	width: 250px;
 	padding: 20px 5px 20px 30px;
 	float: left;
@@ -300,17 +300,12 @@ h5 {
 	color: #FF0000;
 }
 
-.form1 {
+form#coupon {
 	margin-top: 20px;
 }
 
-.form1 p span{
+form#coupon p span{
 	font-size: 14px;
-}
-
-p.error {
-	font-size: 11px;
-	color: #FF0000;
 }
 
 label.error {
@@ -473,17 +468,17 @@ label.error {
 	padding: 0px 0px 12px 25x;
 }
 
-.form {
+form#contact{
 	width: 600px;
 	padding-left: 25px;
 	float: left;
 }
 
-.form p {
+form#contact p {
 	padding-left: 20px;
 }
 
-.form p span {
+form#contact p span {
 	font-size: 10px;
 	color:  #FF0000;
 }
@@ -502,22 +497,22 @@ fieldset {
 	float: right;
 }
 
-#footer {
+footer {
 	background-color: #000000;
 	height: 40px;
 }
 
-#footer ul {
+footer ul {
 	list-style-type: none;
 }
 
-#footer ul li {
+footer ul li {
 	display: inline;
 	float: left;
 	padding-right: 2px; 
 }
 
-#footer ul li a {
+footer ul li a {
 	padding: 10px 0 0 30px;
 	height: 25px;
 	display: block;
@@ -527,11 +522,11 @@ fieldset {
 	text-decoration: none;
 }
 
-#footer ul li a:hover {
+footer ul li a:hover {
 	text-decoration: underline;
 }
 
-#footer .right span {
+footer .right span {
 	float: right;
 	padding: 10px 20px 0 0;
 	color: #FFFFFF;
