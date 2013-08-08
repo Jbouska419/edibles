@@ -1,8 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
+<!DOCTYPE html>
+<html>
+	<head>
 	<title>edibles by erin</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 0.20" />
@@ -59,7 +57,7 @@
 					
 					<div id="content">
 						<h1>Welcome to edibles by erin!</h1>
-						<div class="left-content">
+						<section id="left">
 							<p>&nbsp;&nbsp;&nbsp;edibles by erin creates custom cake pops and more for your next event, or just to show someone
 							 how much you care.  Order now for birthdays, holidays, showers, weddings, bar/bat mitzvahs, 
 							 graduation, mother’s day and more! See our “occasions” page to begin your search for 
@@ -77,9 +75,9 @@
 							  <p>&nbsp;&nbsp;&nbsp;have fun with our website… and as always, please contact us if you have questions, to place 
 							  an order, or would like further information!</p>
 							  
-						</div> <!--left-content-->
+						</section> <!--left-content-->
 							  
-						<div class="right-content">
+						<section id="right">
 							<div class="facebook">
 								<a href="http://www.facebook.com/EdiblesByErin"><img src="images/like.jpg" alt=""></a>
 							</div> <!--facebook-->
@@ -96,7 +94,7 @@
 							</fieldset>
 								<p align="center"><input type="submit" name="submit" value="Submit" /></p>	
 							</div> <!--form-->
-						</div> <!--right-content-->
+						</section> <!--right-content-->
 						<div class="cl">
 						</div> <!--cl-->
 					</div> <!-- content-->
