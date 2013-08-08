@@ -1,8 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
-<head>
+<!DOCTYPE html>
+<html>
+	<head>
 	<title>edibles by erin</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 0.20" />
@@ -23,7 +21,6 @@
   });
 }); 
 $(document).ready(function() {
-	$(':text:first').focus();
 	$('#promo').validate({
 		rules: {
 			email: {
@@ -53,8 +50,8 @@ $(document).ready(function() {
 
 <body>
 	<div id="shell">
-		<div id="header">
-		</div> <!-- header -->
+		<header id="big">
+		</header> <!-- header -->
 		<div class = "cl"></div> <!-- cl -->
 				<!--<div id = "top-photo">
 				</div> <!-- top-photo -->
@@ -69,7 +66,7 @@ $(document).ready(function() {
 					<div class = "cl20">
 					</div> <!-- cl20 -->
 					
-		<div id="nav"> 
+		<nav id="main"> 
 			<ul>
 				<li><a href="index.php">Home</a></li>
 				<li><a href="occasions.php">Occasions</a></li>
@@ -79,12 +76,12 @@ $(document).ready(function() {
 				<li><a href="testimonials.php">Testimonials</a></li>
 				<li><a href="contact.php">Contact Us</a></li>
 			</ul>
-		</div><!-- nav -->
+		</nav>
 					
 					<div id="content">
 						<div class="cl20"></div>
 						<h1>Welcome to edibles by erin!</h1>
-						<div class="left-content">
+						<section id="left">
 							<p>&nbsp;&nbsp;&nbsp;edibles by erin creates custom cake pops and more for your next event, or just to show someone
 							 how much you care.  Order now for birthdays, holidays, showers, weddings, bar/bat mitzvahs, 
 							 graduation, mother’s day and more! See our “occasions” page to begin your search for 
@@ -107,9 +104,9 @@ $(document).ready(function() {
 								</div>
 							  <h4>Please place orders by March 10th</h4>
 							  
-						</div> <!--left-content-->
+						</section> <!--left-content-->
 							  
-						<div class="right-content">
+						<section id="right">
 							<div class="facebook">
 								<a href="http://www.facebook.com/EdiblesByErin"><img src="images/like.jpg" alt=""></a>
 							</div> <!--facebook-->
@@ -118,20 +115,20 @@ $(document).ready(function() {
 								<img src="images/ad.jpg" alt="">
 							</div> <!--ad-->
 							
-						<div class="form1">
+						<form id="coupon">
 							<form action="process.php" method="post" name="promo" id="promo">
 							<fieldset>
 								<p><label><span>email:</span> <input type="text" name="email" id="email" class="required error" size="12" maxlength="30" /></label></p>
 								<p><label><span>zip code:<span></span> <input type="text" name="zipcode" id="zipcode" class="required error" size="5" maxlength="5" /></label></p>
 							</fieldset>
 								<p align="center"><input type="submit" name="submit" value="Submit" /></p>	
-							</div> <!--form1-->
-						</div> <!--right-content-->
+							</form> <!--form1-->
+						</section> <!--right-content-->
 						<div class="cl">
 						</div> <!--cl-->
 						</div> <!-- content-->
 					
-					<div id="footer">
+					<footer>
 						<ul>
 						<li><a href = "index.php">Home</a></li>
 						<li><a href = "occasions.php">Occasions</a></li>
@@ -143,7 +140,7 @@ $(document).ready(function() {
 					
 					<div class="right">
 						<span>&copy; 2012 - edibles by erin &nbsp; Design by James Bouska</span></div>
-					</div> <!--footer-->
+					</footer> <!--footer-->
  		
 	</div> <!-- shell -->
 	
