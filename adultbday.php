@@ -4,11 +4,18 @@ include ('includes/header3.php');
 ?>
 
 <div id = "content">
-  	<div class="cl20"></div>
+		<div class="cl20"></div>
 		<h1>adult's birthday</h1>
 		<div class="cl20"></div>
+		<div id="previous-arrow">
+				<a href="justforfun.php"><img src="images/previous-arrow.png" alt="previous arrow"></a>
+			</div>
+			<div id="next-arrow">
+				<a href="childbday.php"><img src="images/next-arrow.png" alt="next arrow"></a>
+			</div>
+		
 		<div id="gallery">
-		<a href="images/occasions/adult_birthday/01.jpg" rel="gallery" title="zebra theme"><img src="images/occasions/adult_birthday/small/01_a.jpg" width="133" height="100" alt="adultbday"></a>
+		<a href="images/occasions/adult_birthday/01.jpg" rel="gallery" title="zebra theme"><img src="images/occasions/adult_birthday/small/01_a.jpg" width="133" height="100" alt="adultbday"></a> 
 		<a href="images/occasions/adult_birthday/02.jpg" rel="gallery" title="golf theme for 65th birthday"><img src="images/occasions/adult_birthday/small/02_a.jpg" width="133" height="100" alt="adultbday"></a>
 		<a href="images/occasions/adult_birthday/03.jpg" rel="gallery" title="pharmacist/doctor theme"><img src="images/occasions/adult_birthday/small/03_a.jpg" width="133" height="100" alt="adultbday"></a>
 		<a href="images/occasions/adult_birthday/04.jpg" rel="gallery" title="Chicago sports"><img src="images/occasions/adult_birthday/small/04_a.jpg" width="133" height="100" alt="adultbday"></a>
@@ -23,9 +30,9 @@ include ('includes/header3.php');
 		<a href="images/occasions/adult_birthday/13.jpg" rel="gallery" title="manly theme"><img src="images/occasions/adult_birthday/small/13_a.jpg" width="133" height="100" alt="adultbday"></a>
 		<a href="images/occasions/adult_birthday/14.jpg" rel="gallery" title="more drinks for a 21st"><img src="images/occasions/adult_birthday/small/14_a.jpg" width="133" height="100" alt="adultbday"></a>
 		<a href="images/occasions/adult_birthday/15.jpg" rel="gallery" title="golf and penguins"><img src="images/occasions/adult_birthday/small/15_a.jpg" width="133" height="100" alt="adultbday"></a>
-		<div class="cl20"></div>
 			<h5>more photos coming soon...</h5>
 	</div>
+	<div class="cl40"></div>
 </div>
 
 
