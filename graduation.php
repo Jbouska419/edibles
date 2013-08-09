@@ -4,9 +4,15 @@ include ('includes/header3.php');
 ?>
 
 <div id = "content">
-  	<div class="cl20"></div>
+		<div class="cl20"></div>
 		<h1>graduation</h1>
 		<div class="cl20"></div>
+		<div id="previous-arrow">
+				<a href="valentines.php"><img src="images/previous-arrow.png" alt="previous arrow"></a>
+			</div>
+			<div id="next-arrow">
+				<a href="momday.php"><img src="images/next-arrow.png" alt="next arrow"></a>
+			</div>
 		<div id="gallery">
 		<a href="images/occasions/graduation/01.jpg" rel="gallery" title="Indiana University"><img src="images/occasions/graduation/small/01_a.jpg" width="133" height="100" alt="adultbday"></a>
 		<a href="images/occasions/graduation/02.jpg" rel="gallery" title="Indiana University closeup"><img src="images/occasions/graduation/small/02_a.jpg" width="133" height="100" alt="adultbday"></a>
@@ -18,6 +24,7 @@ include ('includes/header3.php');
 		<div class="cl20"></div>
 			<h5>more photos coming soon...</h5>
 	</div>
+	<div class="cl40"></div>
 </div>
 
 
