@@ -4,9 +4,15 @@ include ('includes/header3.php');
 ?>
 
 <div id = "content">
-  	<div class="cl20"></div>
+		<div class="cl20"></div>
 		<h1>just for fun</h1>
 		<div class="cl20"></div>
+		<div id="previous-arrow">
+				<a href="baptism.php"><img src="images/previous-arrow.png" alt="previous arrow"></a>
+			</div>
+			<div id="next-arrow">
+				<a href="adultbday.php"><img src="images/next-arrow.png" alt="next arrow"></a>
+			</div>
 		<div id="gallery">
 		<a href="images/occasions/just_for_fun/01.jpg" rel="gallery" title="casino theme"><img src="images/occasions/just_for_fun/small/01_a.jpg" width="133" height="100" alt="adultbday"></a>
 		<a href="images/occasions/just_for_fun/02.jpg" rel="gallery" title="casino closeup"><img src="images/occasions/just_for_fun/small/02_a.jpg" width="133" height="100" alt="adultbday"></a>
@@ -21,6 +27,7 @@ include ('includes/header3.php');
 		<div class="cl20"></div>
 			<h5>more photos coming soon...</h5>
 	</div>
+	<div class="cl40"></div>
 </div>
 
 
