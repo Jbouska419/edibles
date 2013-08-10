@@ -121,7 +121,7 @@ $(document).ready(function() {
 								<p><label><span>email:</span> <input type="text" name="email" id="email" class="required error" size="12" maxlength="30" /></label></p>
 								<p><label><span>zip code:<span></span> <input type="text" name="zipcode" id="zipcode" class="required error" size="5" maxlength="5" /></label></p>
 							</fieldset>
-								<p align="center"><input type="submit" name="submit" value="Submit" /></p>	
+								<p align="center"><input type="image" src="images/submit.jpg" name="submit" width="70" height="24" /></p>	
 							</form> <!--form1-->
 						</section> <!--right-content-->
 						<div class="cl">
