@@ -21,7 +21,7 @@ include ('includes/header2.php');
 							<p><label>Comments: <textarea name="comment" rows="4" cols="40"></textarea></label></p>
 					</fieldset>
 						<div class="cl10"></div>
-					<p align="center"><input type="submit" name="submit" value="Get more info!" /></p>
+					<p align="center"><input type="image" src="images/getinfo.jpg" name="submit" width="100" height="30" /></p>
 				</form>
 		</div>
 		
