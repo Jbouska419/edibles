@@ -115,18 +115,17 @@ $(document).ready(function() {
 								<img src="images/ad.jpg" alt="">
 							</div> <!--ad-->
 							
-						<form id="coupon">
-							<form action="process.php" method="post" name="promo">
-							<fieldset>
-								<p><label><span>email:</span> <input type="text" name="email" id="email" class="required error" size="12" maxlength="30" /></label></p>
-								<p><label><span>zip code:<span></span> <input type="text" name="zipcode" id="zipcode" class="required error" size="5" maxlength="5" /></label></p>
-							</fieldset>
-								<p align="center"><input type="image" src="images/submit.jpg" name="submit" width="100" height="33" /></p>	
-							</form> <!--form1-->
-						</section> <!--right-content-->
-						<div class="cl">
-						</div> <!--cl-->
-						</div> <!-- content-->
+							<form id="coupon" action="process.php" method="post" name="promo">
+								<fieldset>
+									<p><label><span>email:</span> <input type="text" name="email" id="email" class="required error" size="12" maxlength="30" /></label></p>
+									<p><label><span>zip code:<span></span> <input type="text" name="zipcode" id="zipcode" class="required error" size="5" maxlength="5" /></label></p>
+								</fieldset>
+                						<p align="center"><input type="image" src="images/submit.jpg" width="100" height="33" name="submit" value="Submit" /></p>  
+              						</form> <!--form1-->
+            					</section> <!--right-content-->
+            					<div class="cl">
+            					</div> <!--cl-->
+            				</div> <!-- content--> 
 					
 					<footer>
 						<ul>
