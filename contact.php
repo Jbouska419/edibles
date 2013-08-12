@@ -8,9 +8,9 @@ include ('includes/header2.php');
 		<h1>contact us today</h1>
 		<div class="cl20"></div>
 		
-				<form action="process.php" method="post" name="contact" id="contact">
-
-					<fieldset><legend>inquire about cake pops:</legend>
+				<form action="process2.php" method="post" name="contact" id="contact">
+					<fieldset>
+					<legend>inquire about cake pops:</legend>
 						<div class="cl20"></div>
 							<p><label>First Name: <input type="text" name="firstname" id="firstname" class="required" size="40" maxlength="40" /></label><span>*</span></p>
 							<p><label>Last Name: <input type="text" name="lastname" id="lastname" class="required" size="40" maxlength="40" /></label><span>*</span></p>
