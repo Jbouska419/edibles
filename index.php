@@ -21,7 +21,7 @@
   });
 }); 
 $(document).ready(function() {
-	$('#promo').validate({
+	$('#coupon').validate({
 		rules: {
 			email: {
 				required: true,
@@ -116,7 +116,7 @@ $(document).ready(function() {
 							</div> <!--ad-->
 							
 						<form id="coupon">
-							<form action="process.php" method="post" name="promo" id="promo">
+							<form action="process.php" method="post" name="promo">
 							<fieldset>
 								<p><label><span>email:</span> <input type="text" name="email" id="email" class="required error" size="12" maxlength="30" /></label></p>
 								<p><label><span>zip code:<span></span> <input type="text" name="zipcode" id="zipcode" class="required error" size="5" maxlength="5" /></label></p>
