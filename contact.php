@@ -4,11 +4,10 @@ include ('includes/header2.php');
 ?>
 
 <div id = "content">
-  	<div class="cl20"></div>
+		<div class="cl20"></div>
 		<h1>contact us today</h1>
 		<div class="cl20"></div>
 		
-		<div class="form">
 				<form action="process.php" method="post" name="contact" id="contact">
 
 					<fieldset><legend>inquire about cake pops:</legend>
@@ -21,9 +20,8 @@ include ('includes/header2.php');
 							<p><label>Comments: <textarea name="comment" rows="4" cols="40"></textarea></label></p>
 					</fieldset>
 						<div class="cl10"></div>
-					<p align="center"><input type="image" src="images/getinfo.jpg" name="submit" width="100" height="30" /></p>
+					<p align="center"><input type="image" src="images/getinfo.jpg" name="submit" width="200" height="67" /></p>
 				</form>
-		</div>
 		
 		<div class="event-banner2">
 		</div>
